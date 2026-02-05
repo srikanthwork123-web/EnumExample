@@ -19,6 +19,8 @@ namespace EnumExample
         enum enum_collegename { Jntu,cbit,vizanan,narayana,kits,srm,vit};
 
         enum enum_Address { Hyderabad,chenni,banglore,kochin};
+        //To access enum data  synatx is:enumname.value
+        //example for accessing is:enum_Address.Hyderabad
         static void Main(string[] args)
         {
             string collegename = "Jntu";//this is called Hardcoding the value(Don't write this way in realtime job)
@@ -47,7 +49,7 @@ namespace EnumExample
 
             //==========Getting the college names from enum ======
             string JntuCollegeName = Convert.ToString(enum_collegename.Jntu);
-            Console.WriteLine(JntuCollegeName);
+            Console.WriteLine(JntuCollegeName);//Here i am printing the colleage name.
             string CBITCollegeName = Convert.ToString(enum_collegename.cbit);
             Console.WriteLine(CBITCollegeName);
             string vitCollegeName = Convert.ToString(enum_collegename.vit);
@@ -56,7 +58,7 @@ namespace EnumExample
             Console.WriteLine(vizananCollegeName);
        
             //==========Getting the Address names from enum ======
-            string hyderabad_Addres = Convert.ToString(enum_Address.Hyderabad);
+            string hyderabad_Addres = Convert.ToString(enum_Address.Hyderabad);//Realtime read the data from enum.
             Console.WriteLine(hyderabad_Addres);
             string banglore_Addres = Convert.ToString(enum_Address.banglore);
             Console.WriteLine(banglore_Addres);
