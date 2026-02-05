@@ -14,10 +14,11 @@ namespace EnumExample
             enumeration list   //(enumeration list is a comma-separated list)
         };
         */
+        //enum having string constantmessages.
         enum Days { Sun, Mon, tue, Wed, thu, Fri, Sat };//enum contains constant messages or values
         //In enum the first value starts with 0.
         enum enum_collegename { Jntu,cbit,vizanan,narayana,kits,srm,vit};
-
+     //   enum enum_booleanvalues {true,false};//we can't write keywords inside enum.if you write it will throw compiletime error.
         enum enum_Address { Hyderabad,chenni,banglore,kochin};
         //To access enum data  synatx is:enumname.value
         //example for accessing is:enum_Address.Hyderabad
